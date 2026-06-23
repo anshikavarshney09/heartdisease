@@ -1,22 +1,29 @@
-# Heart Disease Prediction System
+# ❤️ Heart Disease Prediction System
 
-A Machine Learning web application that predicts heart disease risk using patient health data.
-
-## Technologies Used
-
-- Python
-- Streamlit
-- Scikit-learn
-- Pandas
-- Joblib
+## Overview
+This project uses Machine Learning to predict the likelihood of heart disease based on patient health parameters.
 
 ## Features
+- Interactive Streamlit web interface
+- Real-time heart disease prediction
+- User-friendly input form
+- Machine Learning based analysis
 
-- Interactive UI
-- Heart disease risk prediction
-- Machine learning based analysis
+## Technologies Used
+- Python
+- Streamlit
+- Pandas
+- Scikit-learn
+- Joblib
 
-## Run Locally
+## Project Structure
+- app.py
+- KNN_heart.pkl
+- scaler.pkl
+- columns.pkl
 
+## How to Run
+
+pip install -r requirements.txt
 
 streamlit run app.py
